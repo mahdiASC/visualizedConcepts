@@ -1,23 +1,12 @@
-https://help.github.com/articles/duplicating-a-repository/
+#Hosted Website
 
-Mirroring a repository
 
-Open Git Bash.
+##Purpose
+  The purpose of this site is to make some computer science concepts more readily understandable for my students. The visuals are created using the [p5.js](https://p5js.org/) libray.
 
-Create a bare clone of the repository.
-
-```bash
-git clone --bare https://github.com/exampleuser/old-repository.git
-```
-Mirror-push to the new repository.
-
-```bash
-cd old-repository.git
-git push --mirror https://github.com/exampleuser/new-repository.git
-```
-Remove the temporary local repository you created in step 1.
-
-```bash
-cd ..
-rm -rf old-repository.git
-```
+###To-Do List
+1. Add K-means
+2. Add Bubble Sort
+3. Add Binary Tree
+4. Add Shortest Path
+5. Remove unneeded files
