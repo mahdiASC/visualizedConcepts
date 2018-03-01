@@ -10,3 +10,4 @@ mahdiASC.github.io/visualizedConcepts
 3. Add Binary Tree
 4. Add Shortest Path
 5. Remove unneeded files
+6. Revamp mahdi.js to include error handling
